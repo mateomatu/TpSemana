@@ -8,7 +8,23 @@
 
 
 <script type="text/javascript">
+  
+  var dia = prompt('Ingrese un dia de la semana: ').toLowerCase();
+var dias = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo'];
 
+for (var i = 0; i < dias.length; i++)
+{
+  if (dia == dias[5] || dia == dias[6])
+  {
+    console.log('Es fin de semana!');
+  }
+  else
+    {
+    console.log('Hoy es dia habil');
+    }
+}
+
+  /*
 var dia = prompt('Ingrese un dia de la semana: ').toLowerCase();
 
 if (dia == 'sabado' || dia == 'domingo') {
@@ -18,7 +34,7 @@ else
 {
 console.log('Es dia habil');
 }
-
+*/
 
 
 
